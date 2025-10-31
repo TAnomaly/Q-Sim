@@ -1,0 +1,23 @@
+# Compiled executables
+maze
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+
+# Qt table files (model saves)
+qtable.bin
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build directories
+build/
+bin/
