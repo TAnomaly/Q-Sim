@@ -1,5 +1,7 @@
 # Compiled executables
 maze
+qsim
+qsim_dqn
 *.exe
 *.out
 *.app
@@ -8,8 +10,16 @@ maze
 *.o
 *.obj
 
-# Qt table files (model saves)
+# Model saves
 qtable.bin
+dqn_model.bin
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
 
 # IDE files
 .vscode/
